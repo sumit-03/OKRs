@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKRs</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="nav">OKRs</div>
+
+    <!-- check boxes for filters -->
+    <div id="filters">
+        <input type="checkbox" id="All" name="filter" value="All">
+        <label for="All"> All</label>
+
+        <input type="checkbox" id="Company" name="filter" value="Company">
+        <label for="Company"> Company</label>
+
+        <input type="checkbox" id="Sales" name="filter" value="Sales">
+        <label for="Sales"> Sales</label>
+        
+        <input type="checkbox" id="People" name="filter" value="People">
+        <label for="People"> People</label>
+
+        <input type="checkbox" id="Finance" name="filter" value="Finance">
+        <label for="Finance"> Finance</label>
+
+        <input type="checkbox" id="Marketing" name="filter" value="Marketing">
+        <label for="Marketing"> Marketing</label>
+
+        <input type="checkbox" id="Engineering" name="filter" value="Engineering">
+        <label for="Engineering"> Engineering</label>
+
+        <input type="checkbox" id="Design" name="filter" value="Design">
+        <label for="Design"> Design</label>
+
+        <input type="checkbox" id="Administration" name="filter" value="Administration">
+        <label for="Administration"> Administration</label>
+        
+        <input type="checkbox" id="Customer Success" name="filter" value="Customer Success">
+        <label for="Customer Success"> Customer Success</label>
+
+        <input type="checkbox" id="Product Management" name="filter" value="Product Management">
+        <label for="Product Management"> Product Management</label>
+        
+        <br><br>
+
+        <input type="button" value="filter" onclick="filterAllMatchingOKRs();">
+
+        <p id="no-selected-filter" style="display: none; color: red;">Please Select some filter first</p>
+    </div>
+    
+
+
+    <ol id="okrs" type="1">
+
+    </ol>
+
+    <script src="index.js"></script>
+</body>
+</html>
