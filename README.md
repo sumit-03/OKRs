@@ -25,3 +25,4 @@
     ```sh
     http://localhost:9000/
     ```
+* if npm is not installed then directly copy the absolute path of "index.html" and paste in browser.
