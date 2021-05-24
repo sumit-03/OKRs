@@ -1,4 +1,5 @@
 * I am serving the front-end from localhost at port 9000
+* Public folder contains all the code related to front-end
 
 ### Installation And Use guide
 
